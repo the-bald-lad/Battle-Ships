@@ -114,12 +114,10 @@ while True:
       else:
         p_map[a1][a2] = "m"
         break
-    else:
-      pass
 
   if ai_map[r1][r2] == "@":
     ai_map[r1][r2] = "x"
-    pwins =+ 1
+    pwins += 1
   else:
     ai_map[r1][r2] = "m"
 
